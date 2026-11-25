@@ -1,0 +1,54 @@
+/.venv*/
+/.wheelhouse/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env*
+*.pem
+*.key
+*secret*
+*tunnel*.json
+*.log
+*.tmp
+
+# Local credentials and connection settings
+.envrc
+.netrc
+_netrc
+.pypirc
+pip.ini
+pip.conf
+*credentials*
+*.pfx
+*.p12
+*.ppk
+id_rsa
+id_ed25519
+*tunnel*.toml
+*tunnel*.yaml
+*tunnel*.yml
+*tunnel*.ini
+*tunnel*.conf
+tunnel-client/
+proxy.local.*
+
+# Local measurements, databases and diagnostic exports
+telemetry/
+snapshots/
+logs/
+*.sqlite*
+*.db
+*.db-wal
+*.db-shm
+*.dmp
+
+# Machine-specific editor and agent configuration
+.vscode/
+.idea/
+.codex/
+
+# Local Windows tunnel state
+*.dpapi
+tunnel-log*.txt
